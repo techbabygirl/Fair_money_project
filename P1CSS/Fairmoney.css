@@ -12,10 +12,7 @@
   color: #EBF1FD;
   margin-top: -2rem;  
 }
-nav{
 
-
-}
 nav ul li{
   color: black;
 }
@@ -96,18 +93,20 @@ top: -2rem;
    height: 100vh;
   padding-top: 5rem;
   line-height: 30px;
+  /* z-index: 1; */
 }
 .sectionimg1{
 margin-top: -27rem;
-margin-left: 48rem;
+margin-left: 58rem;
 overflow: hidden;
 }
 .sectionimg2{
- margin-top: -25rem;
-  margin-right: 29rem;
+ margin-top: -20rem;
+  margin-right: 50rem;
   transform:rotate(40deg); 
   overflow : hidden;
-  position: absolute;
+  z-index: 1;
+  position: relative;
   
 } 
 .licensedsec{
@@ -154,32 +153,22 @@ font-size: x-small;
     padding-left: 8rem; 
     gap: 1rem; 
     text-align: left; 
-    /* border: thick solid gray;   */
     width: 25rem; 
     padding-top: 4rem;
     
   }
  #section3{
-   padding: 4rem;
+   padding: 2rem;
+   margin-left: 9rem;
 
   }
-  #section3 div{
-    /* width: 20rem; */
-  }
-  .box1{
-   
-  }
+ 
   .box2{
     height: 3rem;
   }
 
   /* corousel */
-  #carouselExampleControls{
-    /* margin-top: -6rem; */
-  /* margin-bottom: -4rem; */
-  /* margin-top: -4rem; */
-    /* height: 120vh; */
-  }
+ 
   #carouselrow{
     padding: 2rem;
      gap: 1rem;
@@ -261,9 +250,7 @@ font-size: x-small;
     margin-top: -3rem;
     border-bottom: none;
   }
-  .ourinvestors h3{
-  
-  }
+ 
 
 #brandslogo{
   border: thick solid black;
@@ -297,10 +284,7 @@ font-size: x-small;
   padding: 4rem;
 }
 
-.sectionTesti{
 
-
-}
 
 .flexrow1{
   padding: 1rem;
@@ -327,9 +311,6 @@ background-color: gainsboro;
   overflow: hidden;
   
 }
-
-
-
 .flexrow2 p{
 
   width: 38rem;
@@ -339,10 +320,6 @@ background-color: gainsboro;
 
 
   }
-
-
-
-
 
   
 
